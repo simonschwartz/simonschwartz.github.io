@@ -1,0 +1,46 @@
+.articles {
+  border-bottom: 1px solid $border-color;
+  padding-bottom: 3em;
+  margin-bottom: 4em;
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  article {
+    margin-top: 3em;
+
+    time {
+      color: $body-text-colour-light;
+    }
+  }
+}
+
+.button {
+  background-color: $orange;
+  color: #fff;
+  padding: 0.6em 1.3em;
+  border-radius: 0.15em;
+  letter-spacing: 0.05em;
+  margin: 2em 0;
+  display: inline-block;
+
+  &:hover,
+  &:focus {
+    background-color: $dark-orange;
+  }
+}
+
+footer {
+  background-color: $dark-grey;
+  color: #fff;
+
+  a {
+    color: #fff;
+  }
+}
+
+footer {
+  padding: 2.5em 0;
+}

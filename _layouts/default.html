@@ -33,7 +33,16 @@
   {% include header.html %}
 
   <main role="main">
-    {{ content }}
+    <article>
+      {% if page.title %}
+        <header><h1>{{page.title}}</h1></header>
+        <section class="article-body">
+          {{ content }}
+        </section>
+      {% else %}
+        {{ content }}
+      {% endif %}
+    </article>
   </main>
 
   {% include footer.html %}
