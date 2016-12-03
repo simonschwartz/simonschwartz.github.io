@@ -1,0 +1,11 @@
+.media-image img {
+  display: block;
+  margin-top: 1.75 * $base-spacing;
+  max-width: 100%;
+
+  + .image-caption {
+    background-color: $image-caption-background-colour;
+    margin-top: 0;
+    padding: $small-spacing;
+  }
+}

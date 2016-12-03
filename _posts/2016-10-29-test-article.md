@@ -1,7 +1,7 @@
 ---
 layout: default
 title: What is sketching in code?
-description: A test description
+description: Sketching in code is a process that allows us to design in context.
 read_time: 5 minute
 ---
 

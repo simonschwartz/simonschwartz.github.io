@@ -1,7 +1,8 @@
-.global-footer {
+.site-footer {
   background-color: $footer-background-colour;
   color: #fff;
-  padding: 2.5em 0;
+  padding: 1.5 * $base-spacing 0;
+  margin-top: 3 * $base-spacing;
 
   h1 {
     color: #fff;
@@ -22,7 +23,8 @@
   }
 
   .github,
-  .linkedin {
+  .linkedin,
+  .twitter {
     margin-right: 1em;
 
     img {
