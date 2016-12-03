@@ -1,18 +1,4 @@
-
-$gov-ui-kit-image-base-url: '../latest/img/' !default;
-
-$base-z-index: 0;
-$base-border-radius: 3px;
-$tiny-border-radius: 1px;
-$large-border-radius: ($base-border-radius * 4);
-
-$transition-timing: .2s;
-$transition-timing-fast: $transition-timing / 2;
-$transition-easing: ease-in-out;
-
 $base-serif: 'Book Antiqua', Georgia, 'Bitstream Vera Serif', serif;
-
-$base-monospace: 'Lucida Sans Typewriter', 'Lucida Console', Monaco, 'Bitstream Vera Sans Mono', monospace;
 
 $base-sans-serif: 'Open Sans', Verdana, 'Bitstream Vera Sans', sans-serif;
 $base-serif: 'Bitter', Georgia, 'Bitstream Vera Serif', serif;
@@ -36,17 +22,24 @@ $bold-font-weight: 700;
 $heading-font-weight: $bold-font-weight;
 
 // Font sizes
-$smaller-font-size: 62.5%;
-$small-font-size: 87.5%;
-$large-font-size: 150%;
-
-// Font styles
+$small-font-size: 70%;
+$large-font-size: 130%;
 $base-font-style: normal;
 
+// Colours
+$heading-text-colour: #f44336;
 $body-text-colour: #333333;
-$body-text-colour-light: #555555;
+$body-text-colour-secondary: #555555;
 $border-color: #f4f4f4;
 
-$orange: #f44336;
-$dark-orange: #E53935;
-$dark-grey: #5d5d5d;
+$primary-button-colour: #f44336;
+$primary-button-hover-colour: #E53935;
+
+$header-background-colour: #f44336;
+$footer-background-colour: #5d5d5d;
+
+$callout-border-colour: #f44336;
+$code-background-colour: #f4f4f4;
+
+// Container width
+$container-width: 760px;

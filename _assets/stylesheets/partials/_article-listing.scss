@@ -1,0 +1,18 @@
+.article-listing {
+  border-bottom: 1px solid $border-color;
+  padding-bottom: 3em;
+  margin-bottom: 4em;
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  article {
+    margin-top: 3em;
+
+    time {
+      color: $body-text-colour-secondary;
+    }
+  }
+}

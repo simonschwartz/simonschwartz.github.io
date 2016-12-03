@@ -1,6 +1,15 @@
-<header role="banner" class="site-header">
+{% if page.url == '/' %}
+<header role="banner" class="site-header site-header--home">
   <section>
     <img alt="site logo" src="{% asset_path site-logo.svg %}">
     <h1 class="site-title">Simon Schwartz <span>Front end developer</span></h1>
   </section>
 </header>
+{% else %}
+<header role="banner" class="site-header site-header--content">
+  <section>
+    <img alt="site logo" src="{% asset_path site-logo.svg %}">
+    <h1 class="site-title">Simon Schwartz <span>Front end developer</span></h1>
+  </section>
+</header>
+{% endif %}
