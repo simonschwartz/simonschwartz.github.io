@@ -1,10 +1,6 @@
 machine:
   ruby:
     version: 2.3.1
-  post:
-    - "curl -v -L -o cf-cli_amd64.deb 'https://cli.run.pivotal.io/stable?release=debian64&version=6.18.1&source=github-rel'"
-    - sudo dpkg -i cf-cli_amd64.deb
-    - cf -v
 
 dependencies:
   override:
@@ -18,6 +14,9 @@ test:
 
 deployment:
   alpha:
-    branch: /.*/
+    branch: /develop/
     commands:
-      - ./bin/cideploy.sh
+      - cd _site
+      - git checkout master
+      - git push
+      # - ./bin/cideploy.sh
