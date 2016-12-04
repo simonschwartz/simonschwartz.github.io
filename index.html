@@ -1,21 +1,61 @@
----
-layout: default
-description: "Frontend designer - Sydney Australia"
----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Simon Schwartz | </title>
+  <meta name="description" content="Frontend designer - Sydney Australia">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<section class="article-listing">
+  <meta property="og:title" content="">
+  <meta property="og:url" content="http://localhost:4000">
+  <meta property="og:description" content="Frontend designer - Sydney Australia">
+  <meta property="og:site_name" content="Simon Schwartz">
+  <meta property="og:image" content="/assets/og-image.jpg">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="http://localhost:4000">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="Frontend designer - Sydney Australia">
+  <meta name="twitter:image" content="/assets/og-image.jpg">
+
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+
+  <link type="text/css" rel="stylesheet" href="/assets/application.css">
+</head>
+<body>
+  <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong>
+      browser. Please <a href="http://browsehappy.com/">upgrade your browser</a>
+      to improve your experience.</p>
+  <![endif]-->
+
+  
+<header role="banner" class="site-header site-header--home">
+  <section class="container">
+    <img alt="site logo" src="/assets/site-logo.svg">
+    <h1 class="site-title">Simon Schwartz <span>Front end developer</span></h1>
+  </section>
+</header>
+
+
+
+  <main role="main" class="container">
+    <article>
+      
+        <section class="article-listing">
 
 <h1>Articles</h1>
 <ul>
-{% for post in site.posts %}
+
   <li>
     <article>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <p>{{ post.description }}</p>
-        <time>{{ post.read_time }} read</time>
+      <h2><a href="/2016/12/04/sketching-in-code/">What is sketching in code?</a></h2>
+        <p>Sketching in code is where you prototype your ideas in code as soon as possible.</p>
+        <time>8 minute read</time>
     </article>
   </li>
-{% endfor %}
+
 </ul>
 
 </section>
@@ -38,3 +78,45 @@ description: "Frontend designer - Sydney Australia"
   <a href="/about/" class="button">Find out more about me</a>
 
 </section>
+
+      
+    </article>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+  <section class="container">
+    <h1>Contact</h1>
+    <p>If you have any questions or just want to chat drop me a line at <a href="mailto:simon.schwartz0@gmail.com">simon.schwartz0@gmail.com</a></p>
+    <p>You can also find me on:</p>
+    <ul>
+      <li>
+        <a class="github" href="https://github.com/simonschwartz">
+          <img src="/assets/github-logo.svg">
+        </a>
+      </li>
+
+      <li>
+        <a class="linkedin" href="https://au.linkedin.com/in/simon-schwartz-9277789a">
+          <img src="/assets/linkedin-logo.svg">
+        </a>
+      </li>
+
+      <li>
+        <a class="twitter" href="https://twitter.com/simonmakesstuff">
+          <img src="/assets/twitter-logo.svg">
+        </a>
+      </li>
+    </ul>
+
+  </section>
+</footer>
+
+
+  <script type="text/javascript" src="/assets/application.js"></script>
+
+  <script>
+    window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+    ga('create','UA-XXXXXXXX-X','auto');ga('send','pageview')
+  </script>
+</body>
+</html>
