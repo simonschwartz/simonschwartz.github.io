@@ -7,5 +7,16 @@
     background-color: $image-caption-background-colour;
     margin-top: 0;
     padding: $small-spacing;
+
+    &::before {
+      background-image: url(asset_path('image-icon.svg'));
+      content: '';
+      display: inline-table;
+      height: $medium-spacing;
+      margin-right: $tiny-spacing;
+      margin-top: .15em;
+      vertical-align: top;
+      width: $medium-spacing;
+    }
   }
 }

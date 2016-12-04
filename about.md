@@ -3,7 +3,7 @@ title: About me
 layout: default
 ---
 
-I'm a front end developer with a varied skill set. I don't know everything, but I want to.
+<p class="abstract">I'm a front end developer with a varied skill set. I don't know everything, but I want to.</p>
 
 ## Design
 
@@ -11,7 +11,7 @@ I spent the early parts of my career as a User Interface designer. I spent most 
 
 ## Development
 
-It didn't take me long to start building stuff myself. I've spent the last two and a half years as a front end developer. I have a particular interest in prototyping, accessibility and open source development.  
+It didn't take me long to start building stuff myself. I've spent the last two and a half years as a front end developer. I have a particular interest in [prototyping](/2016/12/04/sketching-in-code/), accessibility and open source development.  
 
 ## Other areas of interest
 
@@ -33,5 +33,5 @@ In 2015 I joined 11 others on a [charity bike ride across India](http://www.canb
 
 <div class="media-image">
 <img src="{% asset_path about-profile-image.jpg %}" alt="decorative image of Simon" />
-<p class="image-caption">Disclaimer: Beard in images may not represent present beard size.</p>
+<p class="image-caption">Disclaimer: Beard in images may not represent current beard size.</p>
 </div>
