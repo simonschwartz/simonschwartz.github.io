@@ -1,10 +1,10 @@
-.button {
+.button-primary {
   background-color: $primary-button-colour;
   color: #fff;
   padding: 0.6em 1.3em;
   border-radius: 0.15em;
   letter-spacing: 0.05em;
-  margin: 2em 0;
+  margin: $base-spacing $base-spacing $base-spacing 0;
   display: inline-block;
 
   &:hover,
