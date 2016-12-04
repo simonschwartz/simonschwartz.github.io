@@ -10,4 +10,8 @@
 <url>
 <loc>http://localhost:4000//</loc>
 </url>
+<url>
+<loc>http://localhost:4000//files/Simon-Schwartz-CV.pdf</loc>
+<lastmod>2016-12-05T08:37:22+11:00</lastmod>
+</url>
 </urlset>
