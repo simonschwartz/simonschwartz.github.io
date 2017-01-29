@@ -32,6 +32,6 @@ In 2013 I spent 2 months teaching English at a school in rural Nepal as a volunt
 In 2015 I joined 11 others on a [charity bike ride across India](http://www.canberratimes.com.au/act-news/indian-cycle-challenge-scores-for-the-untouchables-20150121-12vlan.html) where we collectively raised over $75,000 for the [Life association charity](http://www.lifeassociation.org.uk/).
 
 <div class="media-image">
-<img src="{% asset_path about-profile-image.jpg %}" alt="decorative image of Simon" />
+<img src="/images/about-profile-image.jpg" alt="decorative image of Simon" />
 <p class="image-caption">Disclaimer: Beard in images may not represent current beard size.</p>
 </div>
