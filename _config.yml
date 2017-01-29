@@ -24,24 +24,3 @@ name: Simon Schwartz
 permalink: pretty
 
 url: # add site url
-
-//create a new github repo
-curl -u 'simonschwartz' https://api.github.com/user/repos -d '{"name":"repo-name"}'
-
-//import code from another repository
-curl -u 'simonschwartz' https://api.github.com/repos/simonschwartz/repo-name -d '{"name":"repo-name","vcs_url": "https://github.com/simonschwartz/jalpha.git"}'
-
-
-//follow project
-curl -X POST https://circleci.com/api/v1.1/project/github/simonschwartz/cga_docs/follow
-
-//build project
-curl -X POST https://circleci.com/api/v1.1/project/github/simonschwartz/simonschwartz.github.io/tree/master
-
-==
-
-//follow project
-curl -X POST https://circleci.com/api/v1.1/project/github/simonschwartz/cga_docs/follow?circle-token=61bdc01af27c89dc42cfa7114c36d2e6497a5835
-
-//build project
-curl -X POST https://circleci.com/api/v1.1/project/github/simonschwartz/simonschwartz.github.io/tree/master?circle-token=61bdc01af27c89dc42cfa7114c36d2e6497a5835
